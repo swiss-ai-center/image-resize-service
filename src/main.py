@@ -57,7 +57,8 @@ class MyService(Service):
                     acronym=ExecutionUnitTagAcronym.IMAGE_PROCESSING
                 ),
             ],
-            has_ai=False
+            has_ai=False,
+            docs_url="https://docs.swiss-ai-center.ch/reference/services/image-resize/",
         )
         self._logger = get_logger(settings)
 
